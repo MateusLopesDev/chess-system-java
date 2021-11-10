@@ -1,6 +1,8 @@
 package application;
 
 import boardgame.Position;
+import boardgame.Board;
+import boardgame.Piece;
 
 public class Program {
 
