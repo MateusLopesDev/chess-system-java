@@ -23,7 +23,8 @@ public class ChessMatch {
 			for (int j=0; j<board.getColumns(); j++) {
 				mat[i][j] = (ChessPiece) board.piece(i,j);
 			}
-		}		
+		}	
+		
 		return mat;
 	}
 	
