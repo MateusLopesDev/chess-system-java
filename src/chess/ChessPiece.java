@@ -18,9 +18,6 @@ public class ChessPiece extends Piece {
 	}
 	
 	protected boolean isThereOpponentPiece(Position position) {
-		
-		
-		
 		return false;
 	}
 	
@@ -32,6 +29,11 @@ public class ChessPiece extends Piece {
 		this.moveCount -= 1;
 	}
 	
+	@Override
+	public boolean[][] possibleMoves() {
+		return null;
+	}	
+	
 	//Getters and Setters
 	public Color getColor() {
 		return color;
@@ -39,5 +41,5 @@ public class ChessPiece extends Piece {
 	
 	public int getMoveCount() {
 		return moveCount;
-	}	
+	}
 }
